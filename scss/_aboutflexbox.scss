@@ -1,0 +1,18 @@
+.flex-container {
+    display: flex;
+    background-color: #fff;
+    justify-content: space-around;
+    align-items: center;
+
+    address{
+        font-size: 20px;
+    }
+  }
+  
+  //custom property
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 50px;
+    font-size: 30px;
+  }

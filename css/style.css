@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.container {
+  max-width: 1400px;
+  padding: 0 30px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.my-space {
+  margin: space rem 0;
+}
+
+.my-space {
+  margin: space rem 0;
+}
+
+.my-space {
+  margin: space rem 0;
+}
+
+.my-space {
+  margin: space rem 0;
+}
+
+.my-space {
+  margin: space rem 0;
+}
+
+.btn-secondary, .btn-primary {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 8px 20px;
+  margin: 3px;
+}
+.btn-secondary:hover, .btn-primary:hover {
+  transform: scale(0.98);
+}
+
+.btn-primary {
+  background-color: #936868;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: rgb(107, 40, 40);
+  color: #fff;
+}
+
+@media (max-width: 700px) {
+  .showcase {
+    height: 400px;
+  }
+  .showcase-content {
+    text-align: center;
+  }
+  .showcase-content img {
+    display: none;
+  }
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #8597a5;
+  padding: 0px;
+}
+.grid-container img {
+  width: 50%;
+  height: "250px";
+}
+.grid-container figcaption {
+  font-size: 25px;
+}
+
+.grid-item {
+  background-color: rgba(117, 114, 114, 0.8);
+  border: 1px rgba(0, 0, 0, 0.8);
+  padding:40px;
+  font-size: 20px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: "Outfit", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.6;
+}
+
+.maincase {
+  background-color: rgba(6, 6, 6, 0.552);
+  color: #fff;
+  height: 600px;
+}
+.maincase nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.maincase ul {
+  display: flex;
+  list-style-type: none;
+}
+.maincase li {
+  padding: 15px;
+}
+.maincase a {
+  text-decoration: none;
+  color: black;
+}
+.maincase a:hover {
+  color: #fff;
+}
+.maincase-content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.maincase .main-img {
+  width: 50%;
+  border-radius: 25px;
+}
+.maincase h1 {
+  font-size: 50px;
+  line-height: 1.2;
+}
+.maincase p {
+  margin: 20px 0;
+}
+
+:root {
+  background: #405256;
+  --consumed-by-js: $primary;
+}
+
+.logo {
+  padding-top: 50px;
+}/*# sourceMappingURL=style.css.map */
+
+.grid-item img{
+  width: 250px;
+  height: 180px;
+}
+
+.main-img{
+  padding-left: 10px;
+}
